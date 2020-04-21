@@ -32,16 +32,16 @@
 : ${ZSH_HIGHLIGHT_STYLES[default]:=none}
 : ${ZSH_HIGHLIGHT_STYLES[unknown-token]:=fg=red,bold}
 : ${ZSH_HIGHLIGHT_STYLES[reserved-word]:=fg=yellow}
-: ${ZSH_HIGHLIGHT_STYLES[suffix-alias]:=fg=green,underline}
+: ${ZSH_HIGHLIGHT_STYLES[suffix-alias]:=fg=green,bold}
 : ${ZSH_HIGHLIGHT_STYLES[global-alias]:=fg=cyan}
-: ${ZSH_HIGHLIGHT_STYLES[precommand]:=fg=green,underline}
+: ${ZSH_HIGHLIGHT_STYLES[precommand]:=fg=green,bold}
 : ${ZSH_HIGHLIGHT_STYLES[commandseparator]:=none}
-: ${ZSH_HIGHLIGHT_STYLES[autodirectory]:=fg=green,underline}
+: ${ZSH_HIGHLIGHT_STYLES[autodirectory]:=fg=green,bold}
 : ${ZSH_HIGHLIGHT_STYLES[path]:=underline}
 : ${ZSH_HIGHLIGHT_STYLES[path_pathseparator]:=}
 : ${ZSH_HIGHLIGHT_STYLES[path_prefix_pathseparator]:=}
-: ${ZSH_HIGHLIGHT_STYLES[globbing]:=fg=blue}
-: ${ZSH_HIGHLIGHT_STYLES[history-expansion]:=fg=blue}
+: ${ZSH_HIGHLIGHT_STYLES[globbing]:=fg=blue,bold}
+: ${ZSH_HIGHLIGHT_STYLES[history-expansion]:=fg=blue,bold}
 : ${ZSH_HIGHLIGHT_STYLES[command-substitution]:=none}
 : ${ZSH_HIGHLIGHT_STYLES[command-substitution-delimiter]:=fg=magenta}
 : ${ZSH_HIGHLIGHT_STYLES[process-substitution]:=none}
@@ -62,7 +62,7 @@
 : ${ZSH_HIGHLIGHT_STYLES[comment]:=fg=black,bold}
 : ${ZSH_HIGHLIGHT_STYLES[named-fd]:=none}
 : ${ZSH_HIGHLIGHT_STYLES[numeric-fd]:=none}
-: ${ZSH_HIGHLIGHT_STYLES[arg0]:=fg=green}
+: ${ZSH_HIGHLIGHT_STYLES[arg0]:=fg=green,bold}
 
 # Whether the highlighter should be called or not.
 _zsh_highlight_highlighter_main_predicate()
